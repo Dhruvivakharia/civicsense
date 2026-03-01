@@ -1,110 +1,232 @@
-CivicLink - AI-Powered Issue Tracking Web Application
+Here is your content properly structured and formatted as a professional **README.md** file for GitHub:
 
-License: MIT
+---
+
+# CivicLink – AI-Powered Issue Tracking Web Application
+
+**License:** MIT
 
 CivicLink is a modern, AI-enhanced web application designed to empower communities by providing a platform for reporting, tracking, and resolving local issues. From potholes and broken streetlights to public safety concerns, CivicLink streamlines the process of civic engagement.
 
-✨ Key Features
+---
 
-👤 User Authentication: Secure sign-up and login functionality for citizens.
-📝 Issue Reporting: An intuitive form for submitting new issue reports, complete with title, description, image uploads, and precise location marking.
-🗺️ Interactive Map View: A dynamic map that visualizes the geographic distribution of all reported issues, providing a clear overview of problem areas in the community.
-📋 Real-time Issue Feed: A live-updating feed of all reported issues, allowing users to stay informed about what's happening in their area.
-👑 Admin Dashboard: A comprehensive dashboard for municipal administrators to manage, categorize, prioritize, and update the status of reported issues.
-🤖 AI-Powered Assistance:
-Image-to-Category Suggestions: Automatically suggests an issue category based on user-uploaded images.
-Automated Priority Assignment: Intelligently predicts and assigns a priority level (Low, Medium, High) to new reports based on their content.
-🚀 Technology Stack
+## ✨ Key Features
 
-This project is built with a modern, robust, and scalable technology stack.
+### 👤 User Authentication
 
-Core Framework
+Secure sign-up and login functionality for citizens.
 
-Next.js (App Router): The foundation of the application, enabling server-centric rendering, file-based routing, and API-less data mutations.
-React: The core UI library for building a component-based user interface.
-UI & Styling
+### 📝 Issue Reporting
 
-ShadCN/UI: A collection of beautifully designed, accessible, and customizable UI components.
-Tailwind CSS: A utility-first CSS framework for rapid and consistent styling.
-Lucide React: A clean and lightweight icon set.
-Language
+An intuitive form for submitting new issue reports, including:
 
-TypeScript: Ensures type safety and improves code quality.
-Artificial Intelligence
+* Title
+* Description
+* Image uploads
+* Precise location marking
 
-Genkit (by Google): An open-source framework for building and orchestrating AI-powered features.
-Google Gemini: The underlying large language model used for AI tasks.
-Backend & Data
+### 🗺️ Interactive Map View
 
-Next.js Server Actions: For handling form submissions and data mutations securely on the server.
-File-Based Data Storage: A lightweight approach using .json files for data persistence in this prototype.
-🧠 AI-Powered Features in Detail
+A dynamic map that visualizes the geographic distribution of reported issues, offering a clear overview of community problem areas.
 
-CivicLink leverages Genkit and the Gemini model to provide intelligent assistance:
+### 📋 Real-Time Issue Feed
 
-Image Categorization: When a user uploads an image while reporting an issue, a multi-modal AI model analyzes the image content. It then suggests the most relevant category for the issue (e.g., "Pothole," "Broken Streetlight"), simplifying the reporting process for the user.
+A live-updating feed of all reported issues so users stay informed about local activity.
 
-Priority Prediction: To help administrators efficiently address the most critical problems, Genkit analyzes the title, description, and category of each new report. Based on this analysis, it predicts the urgency of the issue and automatically assigns a priority level (Low, Medium, or High).
+### 👑 Admin Dashboard
 
-🏁 Getting Started
+A comprehensive dashboard for municipal administrators to:
 
-Prerequisites
+* Manage reports
+* Categorize issues
+* Assign priorities
+* Update issue status
 
-Node.js (v20 or later)
-npm
-Installation
+### 🤖 AI-Powered Assistance
 
-Clone the repository:
+#### 🖼️ Image-to-Category Suggestions
 
-git clone https://github.com/Dhruvivakharia/civicsense
-Navigate to the project directory:
+Automatically suggests an issue category based on uploaded images.
 
-cd CivicLink
-Install dependencies:
+#### ⚡ Automated Priority Assignment
 
-npm install
-Running the Development Server
+Predicts and assigns a priority level (Low, Medium, High) based on report content.
 
-To run the application in development mode:
+---
 
+## 🚀 Technology Stack
+
+CivicLink is built with a modern, scalable technology stack.
+
+### 🏗 Core Framework
+
+* **Next.js (App Router)** – Server-centric rendering, file-based routing, API-less mutations
+* **React** – Component-based UI architecture
+
+### 🎨 UI & Styling
+
+* **ShadCN/UI** – Accessible, customizable UI components
+* **Tailwind CSS** – Utility-first styling framework
+* **Lucide React** – Lightweight icon library
+
+### 💻 Language
+
+* **TypeScript** – Type safety and improved code quality
+
+### 🧠 Artificial Intelligence
+
+* **Genkit (by Google)** – Framework for building AI-powered features
+* **Google Gemini** – Large language model powering AI tasks
+
+### 🗄 Backend & Data
+
+* **Next.js Server Actions** – Secure server-side form handling and mutations
+* **File-Based Data Storage** – Lightweight `.json`-based persistence (prototype stage)
+
+---
+
+## 🧠 AI Features Explained
+
+### 🖼 Image Categorization
+
+When a user uploads an image, a multi-modal AI model analyzes the content and suggests the most relevant category (e.g., "Pothole", "Broken Streetlight").
+
+### ⚡ Priority Prediction
+
+The AI analyzes:
+
+* Title
+* Description
+* Category
+
+Based on contextual understanding, it assigns an urgency level:
+
+* Low
+* Medium
+* High
+
+This helps administrators prioritize critical issues efficiently.
+
+---
+
+## 🏁 Getting Started
+
+### 📌 Prerequisites
+
+* Node.js (v20 or later)
+* npm
+
+---
+
+### 🔧 Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Dhruvivakharia/civicsense
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd CivicLink
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+---
+
+### ▶️ Running the Development Server
+
+```bash
 npm run dev
-The application will be available at http://localhost:9002.
+```
 
-📜 Available Scripts
+Application runs at:
 
-npm run dev: Starts the Next.js development server.
-npm run build: Builds the application for production.
-npm run start: Starts the production server.
-npm run lint: Lints the code using Next.js's built-in linter.
-npm run typecheck: Runs the TypeScript compiler to check for type errors.
-npm run genkit:dev: Starts the Genkit development server.
-npm run genkit:watch: Starts the Genkit development server in watch mode.
-📁 Project Structure
+```
+http://localhost:9002
+```
 
-The project follows a standard Next.js App Router structure:
+---
 
+## 📜 Available Scripts
+
+| Command                | Description                           |
+| ---------------------- | ------------------------------------- |
+| `npm run dev`          | Starts the Next.js development server |
+| `npm run build`        | Builds the application for production |
+| `npm run start`        | Starts the production server          |
+| `npm run lint`         | Runs Next.js linter                   |
+| `npm run typecheck`    | Checks TypeScript types               |
+| `npm run genkit:dev`   | Starts Genkit development server      |
+| `npm run genkit:watch` | Starts Genkit in watch mode           |
+
+---
+
+## 📁 Project Structure
+
+```
 /
 ├── src/
-│   ├── app/              # Main application pages and layouts
-│   ├── components/       # Reusable React components (UI, layout, etc.)
-│   ├── lib/              # Utility functions, data fetching, and type definitions
-│   ├── ai/               # Genkit flows for AI features
-│   └── data/             # JSON files for data storage
-├── public/               # Static assets (images, fonts, etc.)
-└── package.json          # Project dependencies and scripts
-🚀 Deployment
+│   ├── app/        # Application pages & layouts
+│   ├── components/ # Reusable UI components
+│   ├── lib/        # Utilities & type definitions
+│   ├── ai/         # Genkit AI flows
+│   └── data/       # JSON-based data storage
+├── public/         # Static assets
+└── package.json    # Dependencies & scripts
+```
 
-This project is configured for deployment to Google App Engine using the apphosting.yaml file.
+---
 
-🤝 Contributing
+## 🚀 Deployment
 
-Contributions are welcome! Please feel free to open an issue or submit a pull request.
+Configured for deployment on **Google App Engine** using `apphosting.yaml`.
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-📄 License
+---
 
-This project is licensed under the MIT License - see the LICENSE.md file for details (if available).
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your changes
+
+   ```bash
+   git commit -m "Add some AmazingFeature"
+   ```
+4. Push to the branch
+
+   ```bash
+   git push origin feature/AmazingFeature"
+   ```
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+See the `LICENSE.md` file for details.
+
+---
+
+If you want, I can also:
+
+* Add professional badges (build status, license, tech stack)
+* Add screenshots section
+* Add architecture diagram
+* Make it more portfolio-ready for placements
+* Convert it into a resume-ready project description
+
+Let me know your goal (GitHub polish / hackathon / resume / deployment).
