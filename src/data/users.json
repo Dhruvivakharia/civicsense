@@ -1,0 +1,83 @@
+[
+  {
+    "id": "user-1",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@example.com",
+    "password": "123456",
+    "avatarUrl": "https://picsum.photos/seed/Aarav/40/40",
+    "karma": 0,
+    "civicScore": 0
+  },
+  {
+    "id": "user-2",
+    "name": "Priya Patel",
+    "email": "priya.patel@example.com",
+    "password": "123456",
+    "avatarUrl": "https://picsum.photos/seed/Priya/40/40",
+    "karma": 0,
+    "civicScore": 0
+  },
+  {
+    "id": "user-3",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta@example.com",
+    "password": "123456",
+    "avatarUrl": "https://picsum.photos/seed/Rohan/40/40",
+    "karma": 0,
+    "civicScore": 0
+  },
+  {
+    "id": "user-4",
+    "name": "Saanvi Singh",
+    "email": "saanvi.singh@example.com",
+    "password": "123456",
+    "avatarUrl": "https://picsum.photos/seed/Saanvi/40/40",
+    "karma": 0,
+    "civicScore": 0
+  },
+  {
+    "id": "user-1757436795535",
+    "name": "pikachu",
+    "email": "pikachu@gmail.com",
+    "password": "123456",
+    "avatarUrl": "https://www.google.com/imgres?q=pikachu%20coding&imgurl=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FC5612AQFNfqBemjFodw%2Farticle-cover_image-shrink_600_2000%2Farticle-cover_image-shrink_600_2000%2F0%2F1594654600085%3Fe%3D2147483647%26v%3Dbeta%26t%3DPRsjQqJpqnCkoi_PObwuuhoAun2W2Y3TOSN72BDiWso&imgrefurl=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fprogramming-pikachu-joel-johnson&docid=9rlAio2QbMxWbM&tbnid=sw62rynLgHStHM&vet=12ahUKEwjQvvDYmMyPAxUZa_UHHQrWGfcQM3oECBwQAA..i&w=461&h=260&hcb=2&ved=2ahUKEwjQvvDYmMyPAxUZa_UHHQrWGfcQM3oECBwQAA",
+    "karma": 0,
+    "civicScore": 0
+  },
+  {
+    "id": "user-1757471509160",
+    "name": "Yousuf Sayyed",
+    "email": "yousufsayyed.cs@gmail.com",
+    "password": "123456",
+    "avatarUrl": "https://picsum.photos/seed/Yousuf Sayyed/40/40",
+    "karma": 0,
+    "civicScore": 0
+  },
+  {
+    "id": "user-1758298202419",
+    "name": "Yousuf",
+    "email": "mail@gmail.com",
+    "password": "123123",
+    "avatarUrl": "https://picsum.photos/seed/Yousuf/40/40",
+    "civicScore": 0,
+    "karma": 0
+  },
+  {
+    "id": "user-1758298385736",
+    "name": "Yousuf",
+    "email": "yiousuf@gnaik.con",
+    "password": "123456",
+    "avatarUrl": "https://picsum.photos/seed/Yousuf/40/40",
+    "civicScore": 0,
+    "karma": 0
+  },
+  {
+    "id": "user-1758298429990",
+    "name": "Yousuf",
+    "email": "yousufsayyed@gmail.com",
+    "password": "123456",
+    "avatarUrl": "https://picsum.photos/seed/Yousuf/40/40",
+    "civicScore": 0,
+    "karma": 0
+  }
+]
